@@ -1,4 +1,4 @@
-https://semerbl4.github.io/CPS-landing_2.0/ Работающие кнопки:
+https://semerbl4.github.io/CPS-landing_2.1./dist/index.html Работающие кнопки:
 
 "Читать далее"
 "Показать всё"
