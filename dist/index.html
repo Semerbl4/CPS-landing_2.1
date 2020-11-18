@@ -12,52 +12,52 @@
 <body>
 
 
-
+<div class="interface-locker">
+</div>
     <div class="modal-feed__container">
-        <button class="modal-feed__button-X red-button icon_X"></button>
+        <button aria-label="Закрыть окно обратной связи" class="modal-feed__button-X red-button icon_X"></button>
         <form action="#" method="#" class="modal-feed__form">
           <h2 class="modal-feed__header">Обратная связь</h2>
-          <input type="text" name="name" required autofocus placeholder="Имя" class="input_border">
-          <input type="tel" name="phone" required placeholder="Телефон" class="input_border">
-          <input type="email" name="email" required placeholder="Электронная почта" class="input_border">
-          <textarea name="text" required placeholder="Сообщение" rows="10" class="modal-feed__text-area input_border"></textarea>
+          <input type="text" name="name" required autofocus placeholder="Имя" aria-label="Имя" class="input_border">
+          <input type="tel" name="phone" required placeholder="Телефон" aria-label="Телефон" class="input_border">
+          <input type="email" name="email" required placeholder="Электронная почта" aria-label="Электронная почта" class="input_border">
+          <textarea name="text" required placeholder="Сообщение" aria-label="Сообщение" rows="10" class="modal-feed__text-area input_border"></textarea>
           <p class="modal-feed__legal">
             Нажимая “отправить”, вы даете согласие на 
             <a class="modal-feed__link" href="#" title="заглушка">обработку персональных данных</a>
              и соглашаетесь с нашей
              <a class="modal-feed__link" href="#" title="заглушка"> политикой конфиденциальности</a>
           </p>
-          <button class="modal-feed__submit"><p class="modal-feed__submit-text">Отправить</p></button>
+          <button type="submit" aria-laber="Отправить данные" class="modal-feed__submit"><p class="modal-feed__submit-text">Отправить</p></button>
         </form>
     </div>
 
     
 
     <div class="modal-call__container">
-        <button class="modal-call__button-X red-button icon_X"></button>
+        <button aria-label="Закрыть окно заказа звонка" class="modal-call__button-X red-button icon_X"></button>
         <form action="#" method="#" class="modal-call__form">
           <h2 class="modal-call__header">Заказать звонок</h2>
-          <input type="tel" name="phone" required placeholder="Телефон" class="input_border">
+          <input type="tel" name="phone" required placeholder="Телефон" aria-label="Телефон" class="input_border">
           <p class="modal-call__legal">
             Нажимая “отправить”, вы даете согласие на 
             <a class="modal-call__link" href="#" title="заглушка">обработку персональных данных</a>
              и соглашаетесь с нашей
              <a class="modal-call__link" href="#" title="заглушка"> политикой конфиденциальности</a>
           </p>
-          <button class="modal-call__submit"><p class="modal-call__submit-text">Отправить</p></button>
+          <button type="submit" aria-label="Отправить номер телефона" class="modal-call__submit"><p class="modal-call__submit-text">Отправить</p></button>
         </form>
-      </div>
+    </div>
 
     
-
     <div class="menu-container">
 		<div class="menu-container__header">
-			<button class="menu-container__button-X red-button icon_X" type="button">
+			<button aria-label="Закрыть меню" class="menu-container__button-X red-button icon_X" type="button">
 			</button>
 			<a href="">
 				<img class="manu-container__logo" src="img/logo.svg" alt="CPS логотип">
 			</a>
-			<a class="menu-container__button-2 red-button icon_search">
+			<a aria-label="Поиск" title="Поиск" class="menu-container__button-2 red-button icon_search">
 			</a>
 		</div>
 		<nav class="menu-container__nav-block">
@@ -74,11 +74,11 @@
 		</nav>
 		<div class="menu-container__footer-block">
 			<div class="menu-container__footer-buttons">
-				<a href="" class="menu-container__bottom-button red-button icon_call" title="заглушка">
+				<a href="" class="menu-container__bottom-button red-button icon_call" title="Заказать звонок" aria-label="Заказать звонок">
 				</a>
-				<a href="" class="menu-container__bottom-button red-button icon_write" title="заглушка">
+				<a href="" class="menu-container__bottom-button red-button icon_write" title="Обратная связь" aria-label="Обратная связь">
 				</a>
-				<a href="" class="menu-container__bottom-button red-button icon_contacts" title="заглушка">
+				<a href="" class="menu-container__bottom-button red-button icon_contacts" title="Контакты" aria-label="Контакты">
 				</a>
 			</div>
 			<a href="" class="menu-container__mail" src="mailto:mail@cps.com">mail@cps.com</a>
@@ -92,20 +92,20 @@
 	</div>
     <header class="header">
      <div class="header__left-box">
-        <button class="red-button icon_burger" type="button">
+        <button aria-label="Меню" title="Меню" class="red-button icon_burger" type="button">
         </button>
         <img class="logo" src="img/logo.svg" alt="CPS логотип">
      </div>
      <div class="header__center-box-for-768px header__center-box-for-768px_none">
-         <button href="" class="header__call_margin red-button icon_call" title="Открыть меню">
+         <button href="" aria-label="Заказ звонка" class="header__call_margin red-button icon_call" title="Заказ звонка">
          </button>
-         <button href="" class="header__write_margin red-button icon_write" title="Ссылка заглушка">
+         <button href="" aria-label="Обратная связь" class="header__write_margin red-button icon_write" title="Обратная связь">
         </button>
-         <button href="" class="header__contacts_margin red-button icon_contacts" title="Ссылка заглушка">
+         <button href="" aria-label="Контакты" class="header__contacts_margin red-button icon_contacts" title="Контакты">
         </button>
         </div>
      <div class="header__right-box">
-        <button href="" class="header__request_margin red-button icon_request" title="Ссылка заглушка">
+        <button href="" aria-label="" class="header__request_margin red-button icon_request" title="Ссылка заглушка">
         </button>
         <button href="" class="header__status_margin red-button icon_status" title="ссылка заглушка">
         </button>
